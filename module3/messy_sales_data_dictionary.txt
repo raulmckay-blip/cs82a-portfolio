@@ -1,0 +1,13 @@
+messy_sales.csv - Data Dictionary (CS 82A, Module 3)
+Fictional store sales data, deliberately seeded with defects for Lab 1.
+
+Columns (6):
+  order_id  - unique order number (integer)
+  date      - order date; WARNING: two different formats are mixed in this column
+  product   - product name (text)
+  price     - unit price in dollars; WARNING: some values are missing
+  qty       - units sold; WARNING: a few values are negative (returns? typos? you decide)
+  zip       - customer zip code; WARNING: stored as a number, so leading zeros were lost
+
+Expected after cleaning: 292 rows x 6 columns (8 duplicate rows removed),
+0 missing prices (median-imputed), 5-character text zips, datetime dates.
