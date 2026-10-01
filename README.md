@@ -39,6 +39,14 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 | `Module4Lab2.ipynb` | **Problem 3.1:** Bookstore inventory. Median of a category (cover type), overall mean weight, and hardcover vs. paperback group means (`allbacks.csv`). |
 | `Module4Lab3.ipynb` | **Problem 3.2:** Truck list price vs. sale price. Pearson's r ≈ 0.999, a scatter plot, and a straight-line prediction with a confidence argument (`truck.csv`). |
 
+## Module 5: Visualizing Data and Comparing Groups
+
+| Lab | What it covers |
+|---|---|
+| `module5_lab.ipynb` | Labeled, honest seaborn charts (bar, histogram, line, scatter, heatmap) and a t-test comparing casein vs. horsebean chick feeds (`chickwts.csv`, `museum_visitors.csv`, `sales_clean.csv`). |
+| `Module5Lab2.ipynb` | **Problem 5.3:** Removing missing housing types and charting customers by housing type as a sorted bar chart (`custdata.tsv`). |
+| `Module5Lab3.ipynb` | **Problem 5.5:** Correlations between age, income, and vehicles, before and after removing impossible values (`custdata.tsv`). |
+
 ---
 
 ## Skills so far
@@ -48,11 +56,12 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 - **Data cleaning:** duplicates, type fixes, dates, zip codes, spotting impossible values and outliers
 - **Descriptive stats:** mean, median, standard deviation, skew, IQR
 - **Relationships:** correlation matrices, Pearson's r, scatter plots, simple predictions
-- **Visualization:** matplotlib histograms and scatter plots
+- **Visualization:** matplotlib and seaborn bar charts, histograms, line charts, scatter plots, and heatmaps, labeled honestly
+- **Comparing groups:** grouped means, two-sample t-tests, p-values, and effect sizes
 
 ## Tools
 
-Python 3 · pandas · NumPy · matplotlib · Jupyter · VS Code · Git/GitHub
+Python 3 · pandas · NumPy · matplotlib · seaborn · SciPy · Jupyter · VS Code · Git/GitHub
 
 ## How to run
 
