@@ -47,6 +47,14 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 | `Module5Lab2.ipynb` | **Problem 5.3:** Removing missing housing types and charting customers by housing type as a sorted bar chart (`custdata.tsv`). |
 | `Module5Lab3.ipynb` | **Problem 5.5:** Correlations between age, income, and vehicles, before and after removing impossible values (`custdata.tsv`). |
 
+## Module 6: SQL and Databases
+
+| Lab | What it covers |
+|---|---|
+| `Module6Lab1.ipynb` | Loading store orders and customers into a SQLite database, then answering business questions with SQL: filters, `GROUP BY`, a `JOIN` with a row-count audit, a chart from a query, and top products by revenue. |
+| `Module6Lab2.ipynb` | **Appendix C.2:** Building a customers table from scratch with `CREATE TABLE` and `INSERT`, translating the book's MySQL into SQLite. |
+| `Module6Lab3.ipynb` | **Appendix C.3:** Filtering, sorting, and searching that table with `WHERE`, `ORDER BY`, and `LIKE` wildcards, plus a chart from a query. |
+
 ---
 
 ## Skills so far
@@ -58,10 +66,11 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 - **Relationships:** correlation matrices, Pearson's r, scatter plots, simple predictions
 - **Visualization:** matplotlib and seaborn bar charts, histograms, line charts, scatter plots, and heatmaps, labeled honestly
 - **Comparing groups:** grouped means, two-sample t-tests, p-values, and effect sizes
+- **SQL:** SQLite from Python, `SELECT` / `WHERE` / `ORDER BY`, `GROUP BY`, `JOIN`s, `CREATE TABLE` / `INSERT`, and `LIKE` searches
 
 ## Tools
 
-Python 3 · pandas · NumPy · matplotlib · seaborn · SciPy · Jupyter · VS Code · Git/GitHub
+Python 3 · pandas · NumPy · matplotlib · seaborn · SciPy · SQLite · Jupyter · VS Code · Git/GitHub
 
 ## How to run
 

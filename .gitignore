@@ -1,2 +1,6 @@
 .DS_Store
 .ipynb_checkpoints/
+
+# Module 6: keep the database and customer data off GitHub
+*.db
+module6/store_customers.csv
