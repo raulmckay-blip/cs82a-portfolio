@@ -11,9 +11,9 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 
 | Lab | What it covers |
 |---|---|
-| `module1_lab.ipynb` | My AI-use policy for the course: how I use AI tools to learn without letting them do the work for me. |
-| `module1_lab2.ipynb` | Summary table of chick weights by feed type (min / mean / max) and a recommendation on the best feed. |
-| `module1_lab3.ipynb` | **Problem 1.2:** Picking an auto insurance provider from customer ratings by comparing min, mean, and max. |
+| `Module1Lab1.ipynb` | My AI-use policy for the course: how I use AI tools to learn without letting them do the work for me. |
+| `Module1Lab2.ipynb` | Summary table of chick weights by feed type (min / mean / max) and a recommendation on the best feed. |
+| `Module1Lab3.ipynb` | **Problem 1.2:** Picking an auto insurance provider from customer ratings by comparing min, mean, and max. |
 
 ## Module 2: Python Foundations
 
@@ -27,7 +27,7 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 
 | Lab | What it covers |
 |---|---|
-| `module3_lab.ipynb` | Cleaning a messy sales dataset: duplicates, zip codes with lost leading zeros, mixed date formats, and negative quantities (flagged as returns). Saves `sales_clean.csv`. |
+| `Module3Lab1.ipynb` | Cleaning a messy sales dataset: duplicates, zip codes with lost leading zeros, mixed date formats, and negative quantities (flagged as returns). Saves `sales_clean.csv`. |
 | `Module3Lab2.ipynb` | **Problem 2.1:** Finding impossible and extreme values in the US arrests data (`usarrests.csv`) using logic checks and the IQR rule. |
 | `Module3Lab3.ipynb` | **Problem 2.2:** Screening bridge lengths for outliers (`bridges.csv`) when there's no obvious "impossible" cutoff. |
 
@@ -43,7 +43,7 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 
 | Lab | What it covers |
 |---|---|
-| `module5_lab.ipynb` | Labeled, honest seaborn charts (bar, histogram, line, scatter, heatmap) and a t-test comparing casein vs. horsebean chick feeds (`chickwts.csv`, `museum_visitors.csv`, `sales_clean.csv`). |
+| `Module5Lab1.ipynb` | Labeled, honest seaborn charts (bar, histogram, line, scatter, heatmap) and a t-test comparing casein vs. horsebean chick feeds (`chickwts.csv`, `museum_visitors.csv`, `sales_clean.csv`). |
 | `Module5Lab2.ipynb` | **Problem 5.3:** Removing missing housing types and charting customers by housing type as a sorted bar chart (`custdata.tsv`). |
 | `Module5Lab3.ipynb` | **Problem 5.5:** Correlations between age, income, and vehicles, before and after removing impossible values (`custdata.tsv`). |
 
@@ -54,6 +54,21 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 | `Module6Lab1.ipynb` | Loading store orders and customers into a SQLite database, then answering business questions with SQL: filters, `GROUP BY`, a `JOIN` with a row-count audit, a chart from a query, and top products by revenue. |
 | `Module6Lab2.ipynb` | **Appendix C.2:** Building a customers table from scratch with `CREATE TABLE` and `INSERT`, translating the book's MySQL into SQLite. |
 | `Module6Lab3.ipynb` | **Appendix C.3:** Filtering, sorting, and searching that table with `WHERE`, `ORDER BY`, and `LIKE` wildcards, plus a chart from a query. |
+
+## Module 7: Machine Learning, Your First Predictive Models
+
+| Lab | What it covers |
+|---|---|
+| `Module7Lab1.ipynb` | Train/test splits, a linear regression predicting tips from the bill, kNN and decision tree classifiers on iris, and an overfitting check. |
+| `Module7Lab2.ipynb` | **Problem 7.1:** Which of food, ambience, or service drives a restaurant's overall rating (`ratings.tsv`). |
+| `Module7Lab3.ipynb` | **Problem 8.1:** Predicting Titanic survival with a shallow decision tree, honest test accuracy, and who the model gets wrong (`titanic_train.csv`). |
+
+## Module 8: Working with AI
+
+| Lab | What it covers |
+|---|---|
+| `Module8Lab1.ipynb` | AI-assisted exploratory analysis of the Palmer penguins, with a hand-computed baseline, a full prompt log, and a check of the AI's numbers (`penguins.csv`). |
+| `Module8Lab2.ipynb` | **Problem 9.1:** Using an AI assistant to learn clustering and group 50 countries by savings behavior, then verifying one cluster by hand (`lifecyclesavings.csv`). |
 
 ---
 
@@ -67,10 +82,12 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 - **Visualization:** matplotlib and seaborn bar charts, histograms, line charts, scatter plots, and heatmaps, labeled honestly
 - **Comparing groups:** grouped means, two-sample t-tests, p-values, and effect sizes
 - **SQL:** SQLite from Python, `SELECT` / `WHERE` / `ORDER BY`, `GROUP BY`, `JOIN`s, `CREATE TABLE` / `INSERT`, and `LIKE` searches
+- **Machine learning:** train/test splits, linear regression, kNN, decision trees, overfitting checks, and clustering
+- **Working with AI:** prompt logs, and checking AI-written code against numbers worked out by hand
 
 ## Tools
 
-Python 3 · pandas · NumPy · matplotlib · seaborn · SciPy · SQLite · Jupyter · VS Code · Git/GitHub
+Python 3 · pandas · NumPy · matplotlib · seaborn · SciPy · scikit-learn · SQLite · Jupyter · VS Code · Git/GitHub
 
 ## How to run
 
