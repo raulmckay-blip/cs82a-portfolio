@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+
+# Raw and cleaned data are downloaded by the notebook (football-data.co.uk terms: private, non-commercial use)
+data/

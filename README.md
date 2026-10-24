@@ -70,6 +70,17 @@ Each module has its own folder with the lab notebooks (`.ipynb`) and the dataset
 | `Module8Lab1.ipynb` | AI-assisted exploratory analysis of the Palmer penguins, with a hand-computed baseline, a full prompt log, and a check of the AI's numbers (`penguins.csv`). |
 | `Module8Lab2.ipynb` | **Problem 9.1:** Using an AI assistant to learn clustering and group 50 countries by savings behavior, then verifying one cluster by hand (`lifecyclesavings.csv`). |
 
+## Module 9: Cloud Computing, Careers, and Your Portfolio
+
+| Lab | What it covers |
+|---|---|
+| `Module9Lab1.ipynb` | **Problem 6.1:** A pounds-to-kilograms converter run entirely in Google Colab, with proof it ran in the cloud. |
+| `Module9Lab2.ipynb` | **Problem 6.3:** A migration note on moving my workflow from Colab to GitHub Codespaces: what transfers, what needs redoing, and the risk of personal data ending up in the cloud. |
+
+## Final Project: Are La Liga Betting Odds Accurate?
+
+[`final-project/`](final-project/) · 26 seasons and 9,878 La Liga matches, testing whether betting odds match real results. Odds turned out to be well calibrated but slightly biased: favorites win more often than the odds say, and underdogs less. The full report is in the [final project README](final-project/README.md).
+
 ---
 
 ## Skills so far
